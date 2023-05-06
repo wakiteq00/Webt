@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Post Title | DevBlog</title>
+    <meta name="viewport" content="width =device-width, initial-scale =1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: #fff">
+    <!--Navbar -->
+    <header class="top-0 sticky z-10">
+      <nav
+        class="w-full flex flex-wrap justify-between items-center px-4 py-6 bg-white shadow-md"
+      >
+        <!--Logo-->
+        <div class="logo w-12">
+          <img
+            class="rounded-3xl"
+            src="https://via.placeholder.com/150x150"
+            alt="logo"
+          />
+        </div>
+        <!--menu icon-->
+        <div class="md:hidden">
+          <svg
+            width="30px"
+            height="30px"
+            viewBox="0 0 28 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            onclick="document.getElementById('menu').classList.toggle('hidden')"
+          >
+            <path
+              d="M4 7C4 6.44771 4.44772 6 5 6H24C24.5523 6 25 6.44771 25 7C25 7.55229 24.5523 8 24 8H5C4.44772 8 4 7.55229 4 7Z"
+              fill="#000000"
+            />
+            <path
+              d="M4 13.9998C4 13.4475 4.44772 12.9997 5 12.9997L16 13C16.5523 13 17 13.4477 17 14C17 14.5523 16.5523 15 16 15L5 14.9998C4.44772 14.9998 4 14.552 4 13.9998Z"
+              fill="#000000"
+            />
+            <path
+              d="M5 19.9998C4.44772 19.9998 4 20.4475 4 20.9998C4 21.552 4.44772 21.9997 5 21.9997H22C22.5523 21.9997 23 21.552 23 20.9998C23 20.4475 22.5523 19.9998 22 19.9998H5Z"
+              fill="#000000"
+            />
+          </svg>
+        </div>
+        <!--menu items-->
+        <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+          <ul
+            class="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0"
+          >
+            <li>
+              <a
+                class="md:p-4 py-2 block hover:text-indigo-400"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="md:p-4 py-2 block hover:text-indigo-400"
+                href="./blog.html"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                class="md:p-4 py-2 block hover:text-indigo-400"
+                href="./about.html"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="md:p-4 py-2 block hover:text-indigo-400"
+                href="./contact.html"
+                >Contact Us</a
+              >
+            </li>
+            <li>
+              <a
+                class="md:p-4 py-2 block hover:text-indigo-400 text-indigo-500"
+                href="./login.html"
+                >Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container mx-auto mt-16 px-6">
+      <div class="md:flex md:justify-between md:items-center mb-10">
+        <div class="mb-6 md:mb-0">
+          <h2 class="text-2xl font-bold text-gray-800">
+            Awesome Blog Post Title
+          </h2>
+          <p class="text-gray-600">Published on May 6th, 2023 by John Doe</p>
+        </div>
+        <div class="flex items-center">
+          <img
+            class="h-10 w-10 rounded-full object-cover"
+            src="https://via.placeholder.com/150"
+            alt="Author avatar"
+          />
+          <div class="ml-3">
+            <p class="text-gray-800 font-semibold">John Doe</p>
+            <p class="text-gray-600">Author</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center mb-6">
+        <div class="w-full h-full my-3">
+          <img
+            class="w-full object-cover object-center rounded-lg shadow-md"
+            src="./img/background.jpg"
+            alt="Blog post image"
+          />
+        </div>
+      </div>
+      <div class="md:flex md:justify-between md:items-start">
+        <div class="mb-10 md:mr-10 md:mb-0">
+          <p class="text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            accumsan volutpat bibendum. Aliquam euismod fringilla velit, a
+            maximus lorem gravida id. Nullam varius elit vel neque congue
+            aliquet. Fusce id mauris et eros luctus facilisis. Morbi vel
+            efficitur lorem, sed laoreet ipsum. Duis porta euismod orci, a
+            lacinia tortor molestie in. In sed sollicitudin sapien. Duis
+            euismod, magna quis consequat euismod, mauris mauris vehicula enim,
+            sed bibendum tortor quam eget orci.
+          </p>
+
+          <p class="text-gray-600">
+            Mauris ullamcorper tristique justo. Proin in massa non est aliquam
+            bibendum sit amet eget dolor. Nam quis nunc faucibus, semper mi eu,
+            varius turpis. Nunc mollis enim id est imperdiet, eu efficitur orci
+            tempor. Sed dictum, tellus at pellentesque aliquam, dui neque luctus
+            est, nec commodo velit felis a turpis. Vestibulum ante ipsum primis
+            in faucibus orci luctus et ultrices posuere cubilia curae;
+          </p>
+          <ul class="list-disc list-inside text-gray-600">
+            <li>Nulla ac ante sed ante efficitur faucibus sed eget lorem.</li>
+            <li>
+              Vivamus condimentum risus ac velit imperdiet, eu hendrerit risus
+              interdum.
+            </li>
+            <li>Proin nec ipsum vitae elit commodo varius vel a nulla.</li>
+            <li>Sed vel leo a velit ultricies pellentesque quis vel nulla.</li>
+          </ul>
+
+          <p class="text-gray-600">
+            Praesent vel nibh id enim sagittis euismod vel sit amet orci.
+            Vivamus lobortis posuere dictum. Duis et augue eget purus venenatis
+            sagittis. Aliquam lacinia tincidunt arcu non fringilla. Nunc rhoncus
+            magna ipsum, sed posuere mi dapibus sed. In vel erat at urna commodo
+            euismod quis eget urna. Nam in ultrices velit. Sed imperdiet ac arcu
+            ac vestibulum. In hac habitasse platea dictumst.
+          </p>
+
+          <p class="text-gray-600">
+            Etiam placerat justo eu orci auctor, vel facilisis urna tincidunt.
+            Sed bibendum fringilla velit in rhoncus. Curabitur vulputate risus
+            id sapien bibendum eleifend. Aenean bibendum quam a dolor dapibus
+            imperdiet. Aliquam vel turpis sit amet augue porttitor tristique.
+            Fusce posuere quam sed mauris dapibus, vel suscipit risus accumsan.
+            Aenean id enim quis magna commodo feugiat vitae ac eros. Aliquam
+            tempus, quam eget commodo luctus, felis risus dictum mi, ac interdum
+            orci justo vel sapien. Fusce sit amet luctus magna. Aliquam laoreet
+            fermentum nisl, sit amet malesuada nulla lobortis id. Sed varius,
+            quam id commodo tristique, lorem velit facilisis mauris, nec feugiat
+            ex mauris quis odio.
+          </p>
+        </div>
+      </div>
+      <hr class="my-10 bg-gray-900 border-1 border-black border-solid" />
+      <div
+        class="bg-white p-6 rounded-lg shadow-lg my-10 border-t border-gray-500 border-solid"
+      >
+        <h3 class="text-lg font-bold mb-4">Add a comment</h3>
+        <form>
+          <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="comment"
+              >Comment</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+            ></textarea>
+          </div>
+          <div class="flex justify-end">
+            <button
+              class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+      <h1 class="text-2xl font-semibold">Comments (2)</h1>
+      <hr class="my-6 bg-gray-900 border-1 border-black border-solid" />
+      <div class="my-4">
+        <div class="bg-white rounded-lg p-4 shadow-md">
+          <div class="flex items-center mb-4">
+            <img
+              class="h-12 w-12 rounded-full mr-2"
+              src="https://via.placeholder.com/150x150"
+              alt="User profile image"
+            />
+            <div>
+              <h2 class="text-lg font-medium">John Doe</h2>
+              <p class="text-gray-500 text-sm">May 6, 2023</p>
+            </div>
+          </div>
+          <p class="text-gray-700">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+            fringilla quis velit eu ultricies. Phasellus finibus sapien sit amet
+            orci lacinia, sed tempor dolor consequat. Suspendisse potenti. Fusce
+            id ex id turpis tincidunt vehicula. Sed mollis neque felis, sit amet
+            fringilla velit laoreet non.
+          </p>
+        </div>
+      </div>
+      <div class="my-4">
+        <div class="bg-white rounded-lg p-4 shadow-md">
+          <div class="flex items-center mb-4">
+            <img
+              class="h-12 w-12 rounded-full mr-2"
+              src="https://via.placeholder.com/150x150"
+              alt="User profile image"
+            />
+            <div>
+              <h2 class="text-lg font-medium">John Doe</h2>
+              <p class="text-gray-500 text-sm">May 6, 2023</p>
+            </div>
+          </div>
+          <p class="text-gray-700">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+            fringilla quis velit eu ultricies. Phasellus finibus sapien sit amet
+            orci lacinia, sed tempor dolor consequat. Suspendisse potenti. Fusce
+            id ex id turpis tincidunt vehicula. Sed mollis neque felis, sit amet
+            fringilla velit laoreet non.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="text-gray-600 body-font">
+      <div
+        class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+      >
+        <a
+          class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+        >
+          <img
+            class="w-14 rounded-[50%]"
+            src="https://via.placeholder.com/150x150"
+            alt=""
+          />
+          <span class="ml-3 text-xl">DevBlog</span>
+        </a>
+        <p
+          class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+        >
+          © 2023 DevBlog —
+          <a
+            href="#"
+            class="text-gray-600 ml-1"
+            rel="noopener noreferrer"
+            target="_blank"
+            >@DevBlog</a
+          >
+        </p>
+        <span
+          class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+        >
+          <a class="text-gray-500">
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path
+                d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg
+              fill="currentColor"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="0"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+              ></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
