@@ -1,8 +1,8 @@
 # 📝 A Blog Website Template Created using Tailwind CSS
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/your-username/your-repo-name/blob/main/LICENSE.md)
-[![GitHub issues](https://img.shields.io/github/issues/your-username/your-repo-name.svg)](https://github.com/your-username/your-repo-name/issues)
-[![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo-name.svg)](https://github.com/your-username/your-repo-name/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/Armanidrisi/tailwindcss_blog_template.svg)](https://github.com/your-username/your-repo-name/issues)
+[![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo-name.svg)](https://github.com/Armanidrisi/tailwindcss_blog_template/stargazers)
 
 🚀 A blog website template created using Tailwind CSS, a utility-first CSS framework. It includes a homepage, blog posts, about page and more, as well as a responsive design that looks great on all devices.
 
